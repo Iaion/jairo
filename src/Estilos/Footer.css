@@ -1,0 +1,38 @@
+.footer-texto{
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Quicksand', sans-serif;
+  }
+ 
+  .iconos-redes-sociales a{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    margin-top: 1px;
+    border: 2px solid #aeaeae;
+    border-radius: 50%;
+    transition:  all 0.2s ease-in;
+  }
+  .iconos-redes-sociales i{
+    color: #aeaeae;
+    font-size: 1rem;
+    transition: all 0.2s ease-in;
+  }
+  .iconos-redes-sociales a:hover {
+    background-color:  white;
+    border: 2px solid rgb(13, 110, 253);
+  }
+  .iconos-redes-sociales a:hover i{
+    color: rgb(13, 110, 253);
+  
+  }
+  .derechos-de-autor{
+    font-size: 1rem;
+    color: #aeaeae;
+    padding: 20px;
+  }

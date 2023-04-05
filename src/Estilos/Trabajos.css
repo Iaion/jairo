@@ -1,0 +1,31 @@
+.ti{
+  text-align: center;
+  font-size: 1.5rem;
+  color:  #007BFF;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;  
+}
+.elem{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  
+  
+  
+}
+.elem:hover .overlay{
+  opacity: 1.5;
+}
+.col {
+  padding: 0 15px;
+}
+.contenedor-imagen {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.margin-top {
+  margin-top: 2rem; /* Cambiar el valor según sea necesario */
+}
