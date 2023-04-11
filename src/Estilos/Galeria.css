@@ -1,12 +1,12 @@
 .boton-imagen {
-    background-color: #007BFF;
+    background-color: #0D0D0D;
     border-radius: 25px;
     border: none;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #F21D2F;
   }
   .contenedor-imagen {
     position: relative;
@@ -28,14 +28,7 @@
     align-items: center;
     margin-bottom: 20px;
   }
-  .modal-dialog {
-    margin: 0;
-    width: auto;
-    max-width: 90%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-  } 
+ 
   .carousel-control-prev,
 .carousel-control-next {
   width: 5%;
@@ -46,3 +39,17 @@
   max-width: 100%;
   margin: 0 auto;
 } 
+.modal {
+  position: fixed;
+  width: 50%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+

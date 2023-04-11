@@ -60,6 +60,7 @@ const bañeras = [
 function Trabajos() {
    return (
     <div className="margin-top">
+      <h2 className="t">Estos son los trabajos en los que nos especializamos:</h2>
       <Row>
         <Col><div className="elem">
           <h2 className="ti">Esmaltado de bañeras</h2>

@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 function Testimonios() {
   return (
     <section id="testimonios" className="testimonios">
-      <h2 className="seccion-titulo-tt">Testimonios</h2>
+      <h2 className="seccion-titulo">Testimonios</h2>
       <h3 className="seccion-descripcion">Estos son algunos testimonios de nuestros clientes...</h3>      
       <div id="testimonios-carrusel" className="carousel carousel-dark slide " data-bs-ride="carousel">      
         <Carousel >        

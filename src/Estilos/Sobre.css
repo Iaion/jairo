@@ -15,29 +15,20 @@
     
   }
  
-  .seccion-titulo-t{
-    font-size: 1.8rem;
+  .seccion-texto{
+    font-size: 1.5rem;
     padding: 1.2rem;
     margin-top: 1rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: black;
     font-weight: bold;
   }
-  .seccion-titulo-tt{
-    font-size: 1.8rem;
-    padding: 1.2rem;
-    margin-top: 1rem;
-    font-family: 'Poppins', sans-serif;
-    color: black;
-    font-weight: bold;
-  }
-  .seccion-titulo{
+  
+  img{
     font-size: 5rem;
-    margin-top: 1.2rem;
+    margin-top: 2rem;
     padding: 1rem;    
-    font-family: 'Poppins', sans-serif;
-    color: red;
-    font-weight: bold;
+    
   }
   .seccion-subtitulo{
     font-size: 1.8rem;
@@ -46,3 +37,4 @@
     color: red;
     
   }
+  

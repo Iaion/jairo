@@ -6,7 +6,7 @@
   }
   .contacto .rectangulo{
     margin-top: -6rem;
-    background-color: rgb(13, 110, 253);
+    background-color: #F21D2F;
     border-radius:  20px;
     box-shadow: 0px 1px 4px 1px white;
   }
@@ -28,6 +28,7 @@
     margin: 10px;
     border-radius: 100px;
     transition: all 0.2s ease-in-out;
+    justify-content: center;
   }
   .contacto button i{
     color:  white;

@@ -4,38 +4,41 @@ import "../Estilos/Navegacion.css";
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, Container, Nav } from 'react-bootstrap';
+import logow from '../imagenes/logo-wasap.png';
+import logo from '../imagenes/logo2.png';
 
 function NavbarComponent() {
   return (
-    <Navbar expand="lg" bg="light" variant="light" className="navbar">
+    <Navbar expand="lg" className="navbar">
       <Container fluid>
-        <Navbar.Brand href="#">
+        <Navbar.Brand className="d-none d-lg-block">
+        <Link to="/" >
           <img
-            src="https://live.staticflickr.com/65535/52780386119_d575221834_w.jpg"
-            width="120"
+            src={logo}
+            width="125rem"
             alt="Logo de la pagina web"
-          />
+          /></Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-toggler" />
         <Navbar.Collapse id="navbar-toggler">
           <Nav className="mx-auto justify-content-center">
-            <Nav.Link href="#sobre-nosotros" >
-              <Link to="/SobreNosotros">
+            <Nav.Link  >
+              <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>
               Sobre nosotros
               </Link>
             </Nav.Link>
-            <Nav.Link href="#" data-scroll="#Los-trabajos-que-realizamos">
-             <Link to="/Trabajos">
+            <Nav.Link >
+             <Link to="/Trabajos" style={{ color: 'white', textDecoration: 'none' }}>
               Los trabajos que realizamos
               </Link>
             </Nav.Link>
-            <Nav.Link href="#Testimonios" data-scroll="#">
-              <Link to="/Testimonios">
+            <Nav.Link >
+              <Link to="/Testimonios" style={{ color: 'white', textDecoration: 'none' }}>
               Testimonios
               </Link>
             </Nav.Link>
-            <Nav.Link href="#" data-scroll="#contacto">
-              <Link to="/Contactos">                
+            <Nav.Link >
+              <Link to="/Contactos" style={{ color: 'white', textDecoration: 'none' }}>                
               Contactos
               </Link>
             </Nav.Link>
@@ -46,8 +49,8 @@ function NavbarComponent() {
             href="https://wa.me/54223156908009"
           >
             <img
-              src="https://live.staticflickr.com/65535/52780552570_963e85c1b4_z.jpg"
-              width="50"
+              src={logow}
+              width= "75rem"
               alt="Logo de wasap"
             />
           </a>

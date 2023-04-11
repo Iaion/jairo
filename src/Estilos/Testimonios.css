@@ -1,5 +1,6 @@
 .testimonios{
     padding: 0.5rem 2rem 6rem 2rem ;
+    margin-top: 3rem;
   }
 
   .carousel-item{
@@ -31,7 +32,7 @@
   .testimonio-texto{
     font-weight: bold;
     max-width: 100%;
-    
+   
     font-size: 1rem;
     text-align: center;
     font-family: 'Share Tech Mono', monospace;  
@@ -39,7 +40,8 @@
   .testimonio-info{
     font-weight: bold;
     text-align: center;
-    justify-content: center;  
+    justify-content: center;
+       
   }
   .testimonio-info p{
     margin-bottom: 0;
@@ -47,6 +49,7 @@
   }
   .cliente{
     font-weight: bold;
+    color: #F21D2F;
     font-size: 1.2rem;
     text-align: center;
     justify-content: center; 
@@ -66,5 +69,12 @@
     justify-content: center;
     
   }
-  
+  .seccion-descripcion{
+    color: #0D0D0D;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .seccion-titulo{
+    color: #0D0D0D;
+    font-family: 'Quicksand', sans-serif;
+  }
  

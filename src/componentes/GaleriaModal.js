@@ -23,7 +23,7 @@ function GaleriaModal(props) {
       return (
         <>
          <div className="contenedor-imagen">
-        <img src={fotos[0]} alt="Imagen de muestra" height="300px" width="auto" />
+        <img src={fotos[0]} alt="Imagen de muestra" height="200vh" width="auto" />
          <button className="boton-imagen" type="button" onClick={handleShow}>
         Ver galería
       </button>

@@ -13,13 +13,13 @@ function Contacto() {
             <div className="col-12 col-md-4 ">
               <a target="_blank" href="https://wa.me/54223156908009">
                 <Button type="button">
-                  Whatsapp
+                  Whatsapp 
                   <BsWhatsapp />
                 </Button>
               </a>
               <a target="_blank" href="https://m.me/esmaltados.molina">
                 <Button type="button">
-                  Messenger
+                  Messenger  
                   <BsMessenger />
                 </Button>
               </a>
@@ -30,7 +30,7 @@ function Contacto() {
             <div className="col-12 col-md-4">
               <a target="_blank" href="mailto:esmaltadosaries@gmail.com">
                 <Button type="button">
-                  Correo
+                  Correo 
                   <BsEnvelopeCheckFill />
                 </Button>
               </a>

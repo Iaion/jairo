@@ -14,7 +14,7 @@ function App() {
     <div className="background-image" >
       <Navbar/>
       <Routes>
-          <Route path='/SobreNosotros' element={<SobreNosotros/>} ></Route>        
+          <Route path='/' element={<SobreNosotros/>} ></Route>        
           <Route path='/Trabajos' element={<Trabajos/>} ></Route>
           <Route path='/Testimonios' element={<Testimonios/>} ></Route>
           <Route path='/Contactos' element={<Contactos/>} ></Route>    
